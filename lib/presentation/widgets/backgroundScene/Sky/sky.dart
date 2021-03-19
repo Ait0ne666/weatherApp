@@ -1,9 +1,10 @@
 import 'package:flutter/material.dart';
 
 class Sky extends CustomPainter {
-  final Color color;
+  final Color startColor;
+  final Color endColor;
 
-  Sky({this.color});
+  Sky({this.startColor, this.endColor});
 
   @override
   void paint(Canvas canvas, Size size) {
@@ -12,7 +13,7 @@ class Sky extends CustomPainter {
     var gradient = LinearGradient(
         begin: Alignment.topCenter,
         end: Alignment.bottomCenter,
-        colors: [color, color.withAlpha(40)],
+        colors: [startColor, endColor],
         stops: [0, 1]);
 
     canvas.drawRect(rect, Paint()..shader = gradient.createShader(rect));

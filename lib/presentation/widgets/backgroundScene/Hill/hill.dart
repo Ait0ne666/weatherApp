@@ -4,8 +4,10 @@ import 'package:flutter/material.dart';
 
 class Hill extends CustomPainter {
   final double offset;
+  final Color startColor;
+  final Color endColor;
 
-  Hill({this.offset});
+  Hill({this.offset, this.startColor, this.endColor});
 
   @override
   bool shouldRepaint(Hill oldDelegate) => true;
@@ -25,13 +27,13 @@ class Hill extends CustomPainter {
     var gradient = LinearGradient(
         begin: Alignment.topCenter,
         end: Alignment.bottomCenter,
-        colors: [Color.fromRGBO(91, 124, 53, 1), Colors.lightGreen],
+        colors: [endColor, startColor],
         stops: [0, 0.2]);
 
     var gradient2 = LinearGradient(
         begin: Alignment.topLeft,
         end: Alignment.bottomRight,
-        colors: [Color.fromRGBO(91, 124, 53, 1), Colors.lightGreen],
+        colors: [endColor, startColor],
         stops: [0, 0.2]);
 
     path.lineTo(0, h * offset);
