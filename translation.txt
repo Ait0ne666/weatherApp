@@ -1,0 +1,818 @@
+Добавить исключение для лимита уровня карты. = Add card limit exception.
+Добавить EMV-скрипты на карту. = Add EMV-scripts for the card.
+Добавить исключение для лимита уровня терминала. = Add terminal limit exception.
+Выполнить привязку карты к счету. = Bind card to an account.
+Блокировать карту. = Block card.
+Блокировать одну или несколько карт. = Block single or multiple cards.
+Выполнить расчет комиссии. = Calculate fee.
+Отмена DPP.  = Cancel DPP.
+Выполнить аутентификацию карты. = Authenticate card.
+Запросить статус карты. = Make card status inquiry.
+Выполнить предавторизацию транзакции без присутствия карты. = Cardless transaction pre-authorization.
+Выполнить снятие наличных средств. = Cash withdrawal.
+Выполнить внесение наличных средства. = Cash deposit.
+Изменить значение лимита уровня счета. = Change account limit.
+Изменить статус счета. = Change account status.
+Изменить статус счета в SVFE.   = Change SVFE account status.
+Изменить значение лимита уровня карты. = Change card limit.
+Изменить значение исключения лимита уровня карты. = Change card limit exception.
+Изменить статус карты.  = Change card status.
+Изменить счет по умолчанию. = Change default account.
+Изменить статус мерчанта. = Change merchant status.
+Изменить PIN-код. = Change PIN.
+Изменить статус терминала. = Change terminal status.
+Выполнить транзакционную проверку карты. = Check card using a transaction.
+Завершить предварительно-авторизованную транзакцию. = Complete pre-authorized transaction.
+Подтвердить бескарточное снятие наличных денег. = Confirm cardless cash withdrawal.
+Создать виртуальную карту. = Create virtual card.
+Зачислить средства на карту. = Deposit funds to the card.
+Списать средства с карты. = Withdraw funds from the card.
+Удалить лимит уровня карты. = Delete card limit.
+Удалить исключение лимита уровня карты.  = Delete card limit exception.
+Удалить статический пароль для 3DS. = Delete static 3DS password.
+Удалить исключение лимита уровня терминала. = Delete terminal level exception.
+Выполнить перевод между счетами карты.  = Transfer funds between card accounts.
+Сгенерировать CVC2. = Generate CVC2.
+Сгенерировать ключ. = Generate key.
+Сгенерировать PIN-код. = Generate PIN.
+Получить информацию по счету. = Get account details.
+Получить статусы банкоматов. Запрос позволяет получить статус указанного банкомата (с использованием pid или terminalId), статусы всех банкоматов указанного института (с использованием institutionId) или статусы всех банкоматов, зарегистрированных в системе.  = Get ATMs statuses. Allows to request status of a single ATM (using pid or terminalid), all ATM statuses for an institution (using institutionid) or status of every registered ATM.
+Получить информацию о держателе карт. = Get cardholder information.
+Получить информацию о клиенте. = Get customer information.
+Получить информацию из ISO BIN Ranges/Net BINs. = Get information from ISO BIN Ranges/Net BINs.
+Получить список транзакций из BO с разбиением по страницам. = Get paginated transaction list from BO.
+Получить данные токена предавторизации для авторизации в ЛК на терминале. = Get pre-authorization token data to authorize in Personal Area using terminal.
+Получить баланс карты. = Get card balance.
+Получить информацию по карте. = Get card information.
+Получить комиссии карты. = Get card fees.
+Получить лимиты уровня карты. = Get card limits.
+Получить список карт по номеру телефона. = Get card list using phone number.
+Получить список карт по идентификатору клиента и/или держателя карты. = Get card list using client ID and/or cardholder ID.
+Получить информацию о держателе карты. = Get cardholder information.
+Получить содержимое словаря SV2. = Get SV2 catalog contents.
+Получить информацию о контракте и продукте. = Get contract and product data.
+Получить выписку по кредитному счету. = Get credit account statement.
+Получить информацию о клиенте. = Get client information.
+Получить список EMV-скриптов карты. = Get EMV-scripts list for a card.
+Получить полный номер карты.  = Get complete card number.
+Получить список гео-ограничений карты. = Get geo-restrictions list for a card.
+Получить список зарезервированных сумм. = Get list of all funds on hold.
+Получить код аутентификации для сервиса InApp Provisioning. = Get authentication code for an InAppProvisioning service.
+Получить платежные данные для сервиса InApp Provisioning. = Get payment data for an InAppProvisioning service.
+Получить список комиссий мерчанта. = Get merchant fee list.
+Получить список мерчантов. = Get merchant list.
+Получить список сервисов получателей платежей. = Get payment recipients service list.
+Получить список терминалов мерчанта.  = Get merchant's terminal list.
+Получить список транзакций продавца.  = Get merchant's transaction list.
+Получить статусы сетевых соединений SVFE = Get SVFE network link statuses.
+Получить детальную информацию по платежному поручению. = Get payment order detailed information.
+Получить перечень платежных поручений. = Get payment orders list.
+Получить информацию о держателе карты. = Get cardholder information.
+Получить список POS транзакций в iPay для торгового портала. = Get list of all POS transactions in iPay for trading portal.
+Получить список лимитов продукта. = Get product limits list.
+Получить данные SV2 в виде XML. = Get SV2 data in XML.
+Получить список авторизаций терминала. = Get list of authorizations for a terminal.
+Получить список комиссий терминала. = Get fee list for a terminal.
+Получить список лимитом терминала. = Get limit list for a terminal.
+Получить список транзакций терминала. = Get transaction list for a terminal.
+Получить список токенов. = Get token list.
+Получить историю транзакции.  = Get transaction history.
+Получить подробную информацию о транзакции. = Get transaction details.
+Получить список правил дополнительной транзакционной схемы. = Get additional transaction scheme rules.
+Получить список ваучеров, баланс которых был изменен указанной транзакцией. = Get voucher list, whose balance was affected by transaction.
+Получить транзакционную историю. = Get transactions history.
+Получить транзакционную историю. = Get transactions history.
+Получить баланс ваучера. = Get voucher balance.
+Получить список ваучеров.  = Get voucher list.
+Инициировать бескарточное снятие наличных денег. = Initialize cardless cash withdrawal.
+Инициировать расчет для мерчанта. = Initialize merchant settlement.
+Проверить наличие id покупателя. = Check customer id.
+Блокировать кассету ATM. = Lock ATM cassette.
+Блокировать диспенсер ATM. = Lock ATM dispenser.
+Выполнить действие с сервисом получателя платежа. = Perform an action on payment recipient service.
+Получить мини-выписку. = Get mini-statement.
+Выполнить платеж. = Make a payment.
+Выполнить предавторизацию транзакции. = Pre-authorize transaction.
+Выполнить предварительный платеж. = Make a pre-payment.
+Оплатить покупку. = Purchase.
+Выполнить возврат средств. = Make a refund.
+Зарегистрировать клиента. = Register customer.
+Зарегистрировать DPP.  = Register DPP.
+Сбросить счетчик неверных попыток ввода PIN. = Reset incorrect PIN attempts counter.
+Отменить операцию. = Reverse operation.
+Отменить операцию по utrnno. = reverse operation by utrnno.
+Отправить диспутное заявление. = Submit dispute application.
+Отправить эмитентское заявление. = Submit issuer application.
+Выполнить действие над сервисом. =  Perform an action on the service.
+Установить гео-ограничения карты. = Set geo-restrictions for the card.
+Задать ключ. = Set key.
+Установить статический пароль для 3DS. = Set 3DS static password.
+Установить список правил дополнительной транзакционной схемы. = Set rules list for the additional transaction scheme.
+Задать статус ваучера. = Set voucher status.
+Установить возможность работы SVFE в режиме stand-in. = Set SVFE's ability to work in stand-in mode.
+Выполнить действие с токеном. = Perform an action on token.
+Разблокировать кассету ATM. = Unlock ATM cassette.
+Разблокировать диспенсер ATM.  = Unlock ATM dispenser.
+Обновить GMF индикатор.  = Update GMF indicator.
+Загрузить информацию о карте в SVFE. = Upload card data to SVFE.
+Разблокировать карту.  = Unlock card.
+Выполнить валидацию пин-кода. = Validate PIN.
+Сформировать диспутное сообщение VISA SMS. = Generate VISA SMS dispute message.
+Детальные параметры счета. = Acoount detailed parameters.
+Номер счета. = Account number.
+Валюта счета. format: int32 = Account currency. format: int32
+Буквенный код валюты счета. = Account currency letter code.
+Баланс счета. = Account balance.
+Кредитный лимит. = Credit limit.
+Идентификатор клиента. = Client id.
+Показатель счета по умолчанию. = Default account indicator.
+Перечень карт, относящихся к данному счету. = Card list for the account.
+
+Параметры счета. = Account parameters.
+Номер счета. = Account number.
+Валюта счета. format: int32 = Account currency. format: int32
+Буквенный код валюты счета. = Account currency letter code.
+Баланс счета. = Account balance.
+Кредитный лимит. = Credit limit.
+Идентификатор клиента. = Client id.
+Показатель счета по умолчанию. = Default account indicator.
+
+Параметры счета. = Account parameters.
+Номер счета. = Account number.
+Тип счета. = Account type.
+Параметры продукта. = Product parameters.
+Список балансов счета. = Account balance list.
+
+Параметры сообщения типа 'Acquirer Representment'. = 'Acquirer Representment' message type parameters.
+Идентификатор транзакции SVFE. format: int64 = SVFE transaction id. format: int64
+Флаг реверсала. = Reversal flag.
+Идентификатор института. = Institution id.
+Сумма. = Amount.
+Идентификатор документа. format: int64 = Document id. format: int64
+Текст сообщения. = Message text.
+
+
+Параметры идентификации карты. Возможные варианты идентификации карты: (номер карты) или (идентификатор карты), или (штрих-код), или (маскированный номер карты и идентификатор держателя карты), или (маскированный номер карты и номер мобильного телефона). 
+= Card identification parameters. Possible identification options: (card number) or (card id), or (bar-code), or (masked card number and cardholder id), or (masked card number and phone number).
+Параметры терминала. = Terminal parameters.
+
+Параметры идентификации карты. Возможные варианты идентификации карты: (номер карты) или (идентификатор карты), или (штрих-код), или (маскированный номер карты и идентификатор держателя карты), или (маскированный номер карты и номер мобильного телефона). 
+= Card identification parameters. Possible identification options: (card number) or (card id), or (bar-code), or (masked card number and cardholder id), or (masked card number and phone number).
+Параметры исключения лимита. = Limit exception parameters.
+Параметры терминала. = Terminal parameters.
+
+Номер карты. = Card number.
+Номер пластика. format: int32 = Plastic number. format: int32
+Идентификатор группы шаблонов. format: int64 = Template group id. format: int64
+Данные EMV-скрипта. = EMV-script data.
+Идентификатор шаблона. format: int64 = Template id. format: int64
+
+
+Параметры добавления сервиса получателя платежа. = Parameters for adding recipient service.
+Тип сервиса. = Service type.
+Описание сервиса. = Service description.
+Код сервиса. = Service code.
+Код категории мерчанта. format: int64 = Merchant category code. format: int64
+Идентификатор мерчанта. = Merchant id.
+Наименование мерчанта. = Merchant name.
+ИНН мерчанта. = Merchant INN.
+Наименование банка. = Bank name.
+Номер счета. = Account number.
+
+
+Результат добавления сервиса получателя платежа. = Adding recipient service result.
+Идентификатор сервиса. = Service id.
+Идентификатор лимита. format: int32 = Limit id. format: int32
+Идентификатор мерчанта. = Merchant id.
+Идентификатор терминала. = Terminal id.
+Последние цифры номера карты. = Last digits of the card number.
+Значение лимита. format: int64 = Limit value. format: int64
+Комментарий. = Comment.
+
+Адресные данные. = Address information
+Тип адреса. format: int32 = Address type. format: int32
+Улица. = Street.
+Город. = City.
+Штат. = State.
+Код страны. = Country code.
+Регион. = Region.
+Почтовый индекс. = Postcode.
+
+Параметры платежного поручения. = Payment order parameters.
+Идентификатор платежного поручения. format: int64 = Payment order id. format: int64
+Сумма платежного поручения. = Payment order amount.
+Статус платежного поручения. = Payment order status.
+
+Параметры агента. = Agent parameters.
+Идентификатор агента. = Agent id.
+Номер агента. = Agent number.
+Имя агента. = Agent name.
+Связанные агенты. = Connected agents.
+Контакты агента. = Agent contacts.
+Адреса агента. = Agent addresses.
+
+Статусы устройств терминала. = Terminal device statuses.
+Идентификатор терминала. = Terminal id.
+Статус соединения (1 - соединение установлено, 2 - нет соединения). = Connection status (1 - connected, 2- no connection).
+Флаг состояния ATM (0 - закрыт, 1 - открыт). = ATM status flag (0 -  closed, 1 - opened).
+Дата/время последней транзакции. format: date-time = Last transaction date/time. format: date-time
+Дата/время последнего снятия наличности. format: date-time = Last cash withdrawal date/time. format: date-time
+Перечень кассет. = Cassette list.
+Перечень устройств для выдачи монет. = List of coin dispensers.
+Статус сейфа (0 - закрыт, 1 - открыт). = Safe status (0 - closed, 1 - opened).
+Флаг режима супервизора (0 - обычный режим, 1 - режим супервизора). = Supervisor mode flag (0 -  normal mode, 1 - supervisor mode).
+Флаг режима загрузки конфигурации (0 - обычный режим, 1 - режим загрузки конфигурации). = Configuration load mode flag (0 - normal mode, 1 - Configuration load mode).
+Статус чекового принтера (0 - устройство отсутствует, 1 - нормальное состояние, 2 - наличие замечаний, 3 - наличие ошибок). = Receipt printer status (0 - device is missing, 1 - normal status, 2 - remarks, 3 -  errors).
+Статус журнального принтера (0 - устройство отсутствует, 1 - нормальное состояние, 2 - наличие замечаний, 3 - наличие ошибок). = Journal printer status (0 - device is missing, 1 - normal status, 2 - remarks, 3 -  errors).
+Статус устройства выдачи монет (0 - устройство отсутствует, 1 - нормальное состояние, 2 - наличие замечаний, 3 - наличие ошибок). = Coin dispenser status (0 - device is missing, 1 - normal status, 2 - remarks, 3 -  errors).
+Статус устройства шифрования (0 - устройство отсутствует, 1 - нормальное состояние, 2 - наличие замечаний, 3 - наличие ошибок). = Encryption device status (0 - device is missing, 1 - normal status, 2 - remarks, 3 -  errors).
+Статус устройства чтения карт (0 - устройство отсутствует, 1 - нормальное состояние, 2 - наличие замечаний, 3 - наличие ошибок). = Card reader status (0 - device is missing, 1 - normal status, 2 - remarks, 3 -  errors).
+Статус устройства выдачи банкнот (0 - устройство отсутствует, 1 - нормальное состояние, 2 - наличие замечаний, 3 - наличие ошибок). =  Drawer status (0 - device is missing, 1 - normal status, 2 - remarks, 3 -  errors).
+Статус устройства приема банкнот (0 - устройство отсутствует, 1 - нормальное состояние, 2 - наличие замечаний, 3 - наличие ошибок). = Bna status (0 - device is missing, 1 - normal status, 2 - remarks, 3 -  errors).
+Номер версии ПО ИПТ. = IPT software version.
+Статус электронного журнала (0 - устройство отсутствует, 1 - нормальное состояние, 2 - наличие замечаний, 3 - наличие ошибок). = Electronic log status (0 - device is missing, 1 - normal status, 2 - remarks, 3 -  errors).
+Сумма принятой наличности. = Deposit amount.
+Количество принятых банкнот. format: int32 = Deposit notes count. format: int32
+Дата/время последнего принятия наличности. format: date-time = Last cash deposit date/time. format: date-time
+
+Номер кредитуемой карты. = Destination card number.
+Сумма. = Amount.
+Валюта. format: int32 = Currency. format: int32
+Параметры терминала. = terminal parameters.
+
+Параметры баланса счета. = Account balance parameters.
+Тип баланса. = Balance type.
+Значение баланса. format: int64 = Balance value. format: int64
+
+Параметры идентификации карты. Необходимо указать номер и срок действия карты. = Card identification parameters. Card number and expiration date are required.
+Номер счета к которому выполняется привязка. = Account number to bind to.
+Тип счета. = Account type.
+Валюта счета (требуется только при создании нового счета). format: int32 = Account currency ( only required for new accounts ).
+Персональные данные держателя карты. = Cardholder personal information.
+Идентификатор клиента. = Client id.
+Параметры терминала. = Terminal parameters.
+
+Идентификатор держателя карты (последние 8 символов). = Cardholder identification (last 8 symbols).
+Номер телефона. = Phone number.
+Номер счета (последние 4 цифры). = Account number (last 4 digits).
+Номер карты (последние 4 цифры). = Card number (last 4 digits).
+Статус карты. format: int32 = Card status. format: int32
+Режим выполнения операции при выборке нескольких счетов. = Operation execution mode when selecting multiple accounts.
+Код завершения операции в SmartVista. = Operation completion code in SmartVisa.
+Количество заблокированных карт. format: int32 = Number of locked cards. format: int32
+
+
+Параметры идентификации карты. Возможные варианты идентификации карты: (номер карты) или (идентификатор карты), или (штрих-код), или (маскированный номер карты и идентификатор держателя карты), или (маскированный номер карты и номер мобильного телефона). 
+= Card identification parameters. Possible identification options: (card number) or (card id), or (bar-code), or (masked card number and cardholder id), or (masked card number and phone number).
+Статус карты. format: int32 = Card status. format: int32
+Параметры терминала. = Terminal parameters.
+
+Параметры транзакции. = Transaction parameters.
+Номер записи. format: int64 = Record number. format: int64
+Идентификатор транзакции. format: int64 = Transaction id. format: int64
+Дата/время транзакции. format: date-time = Transaction date/time. format: date-time
+Тип сообщения. = Message type.
+Описание транзакции. = Transaction description.
+Маскированный номер карты. = Masked card number.
+Номер карты. = Card number.
+Сумма транзакции. = Transaction amount.
+Расчетная сумма. = Bill amount.
+Буквенный код валюты транзакции. = Letter code for the transaction currency.
+Статус транзакции.  = Transaction status.
+Наименование продавца. = Merchant name.
+Город продавца. = Merchant city.
+Страна продавца. = Merchant country.
+Дата в BO. format: date-time = Host date. format: date-time
+Направление транзакции. = Transaction direction.
+Код ответа. = Response code.
+Основание для операции. = Reason for the operation.
+
+Тип транзакции. format: int32 = Transaction type: format: int32
+Номер карты-источника. = Source card number.
+Номер карты-приемника. = Destination card number.
+Идентификатор сервиса. = Service id.
+Сумма операции в минорных единицах. = Opration amount in minor units.
+Валюта операции. format: int32 = Operation currency. format: int32
+Параметры терминала. = Terminal parameters.
+
+Код завершения операции. format: int32 = Operation completion code. format: int32 
+Параметры комисии. = Fee parameters.
+
+
+Идентификатор оригинальной операции. = Original operation id.
+
+Параметры терминала. = Terminal parameters.
+Идентификатор терминала. = Terminal id.
+Идентификатор продавца. = Merchant id.
+Код категории продавца. = Merchant category code.
+Адрес расположения терминала. = Terminal location address.
+ 
+
+Параметры идентификации карты. Необходимо указать номер или идентификатор карты. = Card identification parameters. Card number and expiration date are required.
+
+Флаг аутентификации карты. = Card authentication flag.
+Срок действия аутентификации. format: date-time = Authentication expiration. format: date-time
+
+Детальные параметры карты. = Card detailed parameters.
+Зашифрованный номер карты. format: byte = Encrypted card number. format: byte
+Маскированный номер карты. = Masked card number.
+Номер карты.  = Card number.
+Срок действия карты. = Card expiration date.
+Срок действия карты в пользовательском формате. = User-formatted card expiration date.
+Идентификатор карты. = Card id.
+Статус карты. format: int32 = Card status. format: int32
+Тип карты. = Card type.
+Эмбоссированное имя. = Embossed name.
+Идентификатор клиента. = Client id.
+Имя клиента. = Client name.
+Идентификатор держателя карты. = Cardholder id.
+Количество неудачных попыток ввода PIN-кода. format: int32 = Incorrect PIN attempts count. format: int32 
+Номер пластика. format: int32 = Plastic number. format: int32
+Описание статуса карты. = Card status description.
+Признак того, является ли карта основной. = Primary card flag.
+Признак того, привязана ли карта к клиенту. = Card binded to client flag.
+Признак того, является ли клиент держателем карты. = Is client a cardholder flag.
+Идентификатор карточного контракта. = Card contract id.
+Идентификатор типа пластика. = Plastic type id.
+Описание типа пластика. = Plastic type description.
+Секретное слово. = Secret word.
+Дата и время ввода последнего неверного PIN-кода. format: date-time = Last incorrect PIN attempt date/time. format: date-time
+Дата выпуска карты. format: date-time = Card issue date. format: date-time
+Дата и время блокировки карты. format: date-time = Card lock date/time. format: date-time
+Счет, используемый для автоплатежей. = Account used for auto-payments.
+Номер мобильного телефона держателя карты. = Cardholder's phone number.
+Перечень счетов, относящихся к данной карте. = List of accounts for the card.
+
+Элемент данных карты. = Card data item.
+Тип элемента данных. = Data item type.
+Содержимое элемента данных. = Data item contents.
+
+Параметры карты. = Card parameters.
+Тип карты. = Card type.
+Номер карты. = Card number.
+Срок действия карты. = Card expiration.
+Статус карты. = Card status.
+Номер счета. = Account number.
+Статус счета. = Account status.
+Номер продукта. = Product number.
+Идентификатор продукта. = Product id.
+
+Параметры идентификации карты. = Card identification parameters.
+Зашифрованный номер карты. format: byte = Encrypted card number. format: byte
+Маскированный номер карты. = masked card number.
+Последние цифры номера карты. = Card number last digits.
+Номер карты. = Card number.
+Идентификатор карты. = Card id.
+Срок действия карты. = Card expiration date.
+Номер пластика. format: int32 = Plastic number. format: int32
+Номер телефона клиента. = Client phone number.
+Идентификатор держателя карты. = Cardholder id.
+Идентификатор клиента. = Client id.
+Номер клиента в SVBO2. = Client number in SVB02.
+Штрих-код. = Bar code.
+Идентификатор карты во внешней системе банка. = Card id in the bank's external system.
+Токен. = Token.
+Код типа карты. = Card type code.
+Внутренний идентификатор института. = Internal institution id.
+
+
+Параметры идентификации карты. Возможные варианты идентификации карты: (номер карты) или (идентификатор карты), или (штрих-код), или (маскированный номер карты и идентификатор держателя карты), или (маскированный номер карты и номер мобильного телефона). 
+= Card identification parameters. Possible identification options: (card number) or (card id), or (bar-code), or (masked card number and cardholder id), or (masked card number and phone number).
+Параметры терминала. = Terminal parameters.
+
+Статус карты. format: int32 = Card status. format: int32
+
+
+Параметры идентификации карты. Возможные варианты идентификации карты: (номер карты) или (идентификатор карты), или (штрих-код), или (маскированный номер карты и идентификатор держателя карты), или (маскированный номер карты и номер мобильного телефона). 
+= Card identification parameters. Possible identification options: (card number) or (card id), or (bar-code), or (masked card number and cardholder id), or (masked card number and phone number).
+Сумма. = Amount.
+Валюта. format: int32 = Currency. format: int32
+Тип счета. = Account type.
+Номер счета. = Account number.
+Параметры транзакции 3DS. = 3DS transaction parameters.
+Информация об отправителе и получателе платежа. = Information about the sender and recipient of the payment.
+Набор кодов, определяющих возможности терминала, параметры его окружения и использование средств защиты при проведении транзакции. = A set of codes that determine the capabilities of the terminal, the parameters of its environment and the use of security tools during a transaction.
+Код, определяющий условия проведения транзакции в точке обслуживания. = A code that defines the conditions for conducting a transaction at a service point.
+Параметры терминала. = Terminal parameters.
+Индикатор уровня безопасности. = Security level indicator.
+Тип присутствия держателя карты в точке проведения платежа. format: int32 = Cardholder presense at a service point type. format: int32
+Время действия предавторизации в минутах. format: int32 = Pre-authorization expiration time in minutes. format: int32
+Тип предавторизации. format: int32 = Pre-authorization type.  format: int32
+Отключить печать баланса на чеке. = Disable printing of the balance on the receipt.
+
+
+Код завершения операции SVFE. = SVFE operation completion code.
+Код обработки. = processing code.
+Номер записи аудита. format: int32 = Audit record number. format: int32
+Дата транзакции. format: date-time = Transaction date.  format: date-time
+Внешний идентификатор RRN. = External id RNN.
+Идентификатор авторизации. = Authorization id.
+Уникальный ссылочный номер операции. = Unique reference number for the operation.
+Одноразовый пароль. = One-time password.
+Сумма эквайерской комиссии. = Acquirer fee amount.
+Сумма эмитентской комиссии. = Issuer fee amount.
+Специальные данные платежа. = Payment specific data.
+Код для снятия денег. = Withdrawal code.
+Код для отмены транзакции. = Transaction cancelation code.
+Комиссия за операцию. = Operation fee.
+
+Параметры идентификации карты. Возможные варианты идентификации карты: (номер карты) или (идентификатор карты), или (штрих-код), или (маскированный номер карты и идентификатор держателя карты), или (маскированный номер карты и номер мобильного телефона). 
+= Card identification parameters. Possible identification options: (card number) or (card id), or (bar-code), or (masked card number and cardholder id), or (masked card number and phone number).
+Сумма. = amount.
+Валюта. format: int32 = Currency.  format: int32
+Тип счета. = Account type.
+Порядковый номер счета-источника. format: int32 = Source account index. format: int32
+Номер счета. = Account number.
+Тип счета 2. = Account type 2.
+Порядковый номер счета 2. format: int32 = Account index 2. format: int32
+Номер счета 2. = Account number 2.
+Параметры транзакции 3DS. = 3DS transaction parameters.
+Информация об отправителе и получателе платежа. = Payment sender and recipient information.
+Набор кодов, определяющих возможности терминала, параметры его окружения и использование средств защиты при проведении транзакции. = A set of codes that determine the capabilities of the terminal, the parameters of its environment and the use of security tools during a transaction.
+Код, определяющий условия проведения транзакции в точке обслуживания. = A code that defines the conditions for conducting a transaction at a service point.
+Параметры терминала. = Terminal parameters.
+Индикатор уровня безопасности. = Security level indicator.
+Источник пополнения. format: int32 = Debit source. format: int32
+Внешний идентификатор транзакции. = External transaction id.
+Тип присутствия держателя карты в точке проведения платежа. format: int32 = Cardholder presense at a service point type. format: int32
+Уникальный ссылочный номер операции. = Unique reference number for the operation.
+Одноразовый пароль. = One-time password.
+Идентификатор сервиса получателя платежа. = Payment recipient service id.
+Специальные данные платежа. = Payment specific data.
+
+Параметры идентификации карты. Возможные варианты идентификации карты: (номер карты) или (идентификатор карты), или (штрих-код), или (маскированный номер карты и идентификатор держателя карты), или (маскированный номер карты и номер мобильного телефона). 
+= Card identification parameters. Possible identification options: (card number) or (card id), or (bar-code), or (masked card number and cardholder id), or (masked card number and phone number).
+Сумма. = amount.
+Валюта. format: int32 = Currency.  format: int32
+Тип счета. = Account type.
+Порядковый номер счета-источника. format: int32 = Source account index. format: int32
+Номер счета. = Account number.
+Тип счета 2. = Account type 2.
+Порядковый номер счета 2. format: int32 = Account index 2. format: int32
+Номер счета 2. = Account number 2.
+Параметры транзакции 3DS. = 3DS transaction parameters.
+Информация об отправителе и получателе платежа. = Payment sender and recipient information.
+Набор кодов, определяющих возможности терминала, параметры его окружения и использование средств защиты при проведении транзакции. = A set of codes that determine the capabilities of the terminal, the parameters of its environment and the use of security tools during a transaction.
+Код, определяющий условия проведения транзакции в точке обслуживания. = A code that defines the conditions for conducting a transaction at a service point.
+Параметры терминала. = Terminal parameters.
+Индикатор уровня безопасности. = Security level indicator.
+Источник пополнения. format: int32 = Debit source. format: int32
+Внешний идентификатор транзакции. = External transaction id.
+Тип присутствия держателя карты в точке проведения платежа. format: int32 = Cardholder presense at a service point type. format: int32
+Уникальный ссылочный номер операции. = Unique reference number for the operation.
+Одноразовый пароль. = One-time password.
+Идентификатор сервиса получателя платежа. = Payment recipient service id.
+Специальные данные платежа. = Payment specific data.
+
+Номер счета. = Account number.
+Параметры лимита. = Limit parameters.
+Параметры терминала. = Terminal parameters.
+
+Номер счета. = Account number.
+Статус счета. format: int32 = Account status. format: int32
+Параметры терминала. = Terminal parameters.
+
+Номер счета. = Account number.
+Статус счета. format: int32 = Account status. format: int32
+
+
+Параметры идентификации карты. Необходимо указать номер и срок действия карты. = Card identification parameters. Card number and expiration date are required.
+Параметры лимита. = Limit parameters.
+Параметры терминала. = Terminal parameters.
+
+Параметры идентификации карты. Возможные варианты идентификации карты: (номер карты) или (идентификатор карты), или (штрих-код), или (маскированный номер карты и идентификатор держателя карты), или (маскированный номер карты и номер мобильного телефона). 
+= Card identification parameters. Possible identification options: (card number) or (card id), or (bar-code), or (masked card number and cardholder id), or (masked card number and phone number).
+Статус карты. format: int32 = Card status. format: int32
+Параметры терминала. = Terminal parameters.
+
+Параметры идентификации карты. Возможные варианты идентификации карты: (номер карты) или (идентификатор карты), или (штрих-код), или (маскированный номер карты и идентификатор держателя карты), или (маскированный номер карты и номер мобильного телефона). 
+= Card identification parameters. Possible identification options: (card number) or (card id), or (bar-code), or (masked card number and cardholder id), or (masked card number and phone number).
+Номер счета. = Account number.
+Параметры терминала. = Terminal parameters.
+
+
+Номер мерчанта. = Merchant number.
+Внутренний идентификатор института. = Internal institution id.
+Идентификатор агента. = Agent id.
+Номер клиента. = Client number.
+Номер контракта. = Contract number.
+Статус мерчанта. = Merchant status.
+
+Параметры идентификации карты. Необходимо указать номер и срок действия карты. = Card identification parameters. Card number and expiration date are required.
+Новое значение PIN-кода. = New PIN.
+Параметры терминала. = Terminal parameters.
+
+
+Номер мерчанта. = Merchant number.
+Номер терминала. = Terminal number.
+Внутренний идентификатор института. = Internal institution id.
+Идентификатор агента. = Agent id.
+Номер клиента. = Client number.
+Номер контракта. = Contract number.
+Параметры терминала. = Terminal parameters.
+
+Параметры идентификации карты. Возможные варианты идентификации карты: (номер карты) или (идентификатор карты), или (штрих-код), или (маскированный номер карты и идентификатор держателя карты), или (маскированный номер карты и номер мобильного телефона). 
+= Card identification parameters. Possible identification options: (card number) or (card id), or (bar-code), or (masked card number and cardholder id), or (masked card number and phone number).
+Параметры терминала. = Terminal parameters.
+
+Код завершения операции SVFE. = SVFE operation completion code.
+Данные карты (только если responseCode = '0' или '00'). = Card details ( only if responseCode = '0' or '00').
+
+Параметры идентификации карты. Необходимо указать номер и срок действия карты. = Card identification parameters. Card number and expiration date are required.
+Тип сервиса. = Service type.
+Идентификатор сервиса. = Service id.
+Номер сервиса. = Service number.
+
+Параметры устройства для выдачи монет. = Coin dispenser status.
+Номер устройства. format: int32 = Device number. format: int32
+Код валюты. format: int32 = Currency code. format: int32
+Номинал монет. format: int32 = Coin value. format: int32
+Количество загруженных монет. format: int32 = Number of coins loaded. format: int32
+Количество выданных монет. format: int32 = Number of coins issued. format: int32
+Количество оставшихся монет. format: int32 = Number of coins left. format: int32
+
+Параметры идентификации карты. Возможные варианты идентификации карты: (номер карты) или (идентификатор карты), или (штрих-код), или (маскированный номер карты и идентификатор держателя карты), или (маскированный номер карты и номер мобильного телефона). 
+= Card identification parameters. Possible identification options: (card number) or (card id), or (bar-code), or (masked card number and cardholder id), or (masked card number and phone number).
+Сумма. = amount.
+Валюта. format: int32 = Currency.  format: int32
+Тип счета. = Account type.
+Информация об отправителе и получателе платежа. = Payment sender and recipient information.
+Набор кодов, определяющих возможности терминала, параметры его окружения и использование средств защиты при проведении транзакции. = A set of codes that determine the capabilities of the terminal, the parameters of its environment and the use of security tools during a transaction.
+Код, определяющий условия проведения транзакции в точке обслуживания. = A code that defines the conditions for conducting a transaction at a service point.
+Внешний идентификатор, полученный на этапе предавторизации. = External id, received at pre-authorization stage.
+Параметры терминала. = Terminal parameters.
+Тип присутствия держателя карты в точке проведения платежа. format: int32 = Cardholder presense at a service point type. format: int32
+
+
+Параметры идентификации карты. Возможные варианты идентификации карты: (номер карты) или (идентификатор карты), или (штрих-код), или (маскированный номер карты и идентификатор держателя карты), или (маскированный номер карты и номер мобильного телефона). 
+= Card identification parameters. Possible identification options: (card number) or (card id), or (bar-code), or (masked card number and cardholder id), or (masked card number and phone number).
+Сумма. = amount.
+Валюта. format: int32 = Currency.  format: int32
+Тип счета. = Account type.
+Порядковый номер счета-источника. format: int32 = Source account index. format: int32
+Номер счета. = Account number.
+Тип счета 2. = Account type 2.
+Порядковый номер счета 2. format: int32 = Account index 2. format: int32
+Номер счета 2. = Account number 2.
+Параметры транзакции 3DS. = 3DS transaction parameters.
+Информация об отправителе и получателе платежа. = Payment sender and recipient information.
+Набор кодов, определяющих возможности терминала, параметры его окружения и использование средств защиты при проведении транзакции. = A set of codes that determine the capabilities of the terminal, the parameters of its environment and the use of security tools during a transaction.
+Код, определяющий условия проведения транзакции в точке обслуживания. = A code that defines the conditions for conducting a transaction at a service point.
+Параметры терминала. = Terminal parameters.
+Индикатор уровня безопасности. = Security level indicator.
+Источник пополнения. format: int32 = Debit source. format: int32
+Внешний идентификатор транзакции. = External transaction id.
+Тип присутствия держателя карты в точке проведения платежа. format: int32 = Cardholder presense at a service point type. format: int32
+Уникальный ссылочный номер операции. = Unique reference number for the operation.
+Одноразовый пароль. = One-time password.
+Идентификатор сервиса получателя платежа. = Payment recipient service id.
+Специальные данные платежа. = Payment specific data.
+
+
+Параметры идентификации основной карты. = Primary card identification parameters.
+Параметры идентификации виртуальной карты. Должны быть указаны срок действия и тип продукта. = Virtual card identification parameters. Expiration date and product type are required.
+Величина начального лимита, назначенного в системе для создаваемых виртуальных карт. = Default limit for newly created virtual cards.
+Валюта. format: int32 = Currency.  format: int32
+Номер счета для идентификации основной карты. = Account number for primary card identification.
+Метод доставки параметров виртуальной карты. = Virtual card parameters delivery method.
+Персональные данные владельца карты. = Card owner personal data.
+Параметры терминала. = Terminal parameters.
+
+Параметры виртуальной карты. = Virtual card Parameters.
+
+Флаг, указывающий на то, что запрос является предавторизацией. = Pre-authorization flag.
+Параметры идентификации карты. Возможные варианты идентификации карты: (номер карты) или (идентификатор карты), или (штрих-код), или (маскированный номер карты и идентификатор держателя карты), или (маскированный номер карты и номер мобильного телефона). 
+= Card identification parameters. Possible identification options: (card number) or (card id), or (bar-code), or (masked card number and cardholder id), or (masked card number and phone number).
+Сумма. = amount.
+Валюта. format: int32 = Currency.  format: int32
+Параметры транзакции 3DS. = 3DS transaction parameters.
+Параметры терминала. = Terminal parameters.
+
+Параметры сообщения типа 'Credit Funds Adjustment'. = 'Credit Funds Adjustment' message type parameters.
+Идентификатор транзакции SVFE. format: int64 = SVFE transaction id.
+Флаг реверсала. = Reversal flag.
+Идентификатор института. = Institution id.
+Сумма. = Amount.
+Код причины. format: int64 = Reason code. format: int64
+Текст сообщения. = Message text.
+
+Параметры клиента. = Client parameters.
+Идентификатор клиента. = Client id.
+Адрес. = Address.
+Секретное слово. = Secret word.
+Телефон. = Phone.
+
+Флаг, указывающий на то, что запрос является предавторизацией. = Pre-authorization flag.
+Параметры идентификации карты. Возможные варианты идентификации карты: (номер карты) или (идентификатор карты), или (штрих-код), или (маскированный номер карты и идентификатор держателя карты), или (маскированный номер карты и номер мобильного телефона). 
+= Card identification parameters. Possible identification options: (card number) or (card id), or (bar-code), or (masked card number and cardholder id), or (masked card number and phone number).
+Сумма. = amount.
+Валюта. format: int32 = Currency.  format: int32
+Параметры эквайерской комиссии. = Acquirer fee parameters.
+Параметры транзакции 3DS. = 3DS transaction parameters.
+Параметры терминала. = Terminal parameters.
+
+Идентификатор транзакции SVFE. format: int64 = SVFE transaction id.
+Флаг реверсала. = Reversal flag.
+Идентификатор института. = Institution id.
+Сумма. = Amount.
+Код причины. format: int64 = Reason code. format: int64
+Текст сообщения. = Message text.
+
+Параметры идентификации карты. Возможные варианты идентификации карты: (номер карты) или (идентификатор карты), или (штрих-код), или (маскированный номер карты и идентификатор держателя карты), или (маскированный номер карты и номер мобильного телефона). 
+= Card identification parameters. Possible identification options: (card number) or (card id), or (bar-code), or (masked card number and cardholder id), or (masked card number and phone number).
+Параметры исключения лимита. = Limit exception parameters.
+Параметры терминала. = Terminal parameters.
+
+Параметры идентификации карты. Возможные варианты идентификации карты: (номер карты) или (идентификатор карты), или (штрих-код), или (маскированный номер карты и идентификатор держателя карты), или (маскированный номер карты и номер мобильного телефона). 
+= Card identification parameters. Possible identification options: (card number) or (card id), or (bar-code), or (masked card number and cardholder id), or (masked card number and phone number).
+Параметры исключения лимита. = Limit exception parameters.
+Параметры терминала. = Terminal parameters.
+
+Параметры для удаления сервиса получателя платежа. = Payment recipient service deletion parameters.
+Идентификатор сервиса. = Service id.
+
+Параметры идентификации карты. Возможные варианты идентификации карты: номер карты, идентификатор карты. = Card identification parameters. Identification options: card number, card id.
+Тип сервиса. = Service type.
+Идентификатор сервиса. = Service id.
+Номер сервиса. = Service number.
+
+Идентификатор исключения. format: int32 = Exception id. format: int32
+
+Тип документа (IDTP1 - паспорт, IDTP2 - водительское удостоверение). = Document type (IDTP1 - passport, IDTP2 - drivers license).
+Номер документа. = Document number.
+Серия документа. = Document series.
+
+
+Данные EMV-скрипта. = EMV-script data.
+Тип скрипта. format: int32 = Script type. format: int32
+Тэг EMV-скрипта. = EMV-script tag.
+Данные EMV-скрипта. = EMV-script data.
+
+Параметры EMV-скрипта. = EMV-script parameters.
+Тип скрипта. format: int32 = Script type. format: int32
+Дата создания скрипта. format: date-time = Script creation date. format: date-time
+Статус скрипта. format: int32 = Script status. format: int32
+Идентификатор транзакции, в которой скрипт был отправлен. format: int64 = Transaction id, in which script had been sent. format: int64
+Дата и время транзакции, в которой скрипт был отправлен. format: date-time = Transaction date/time, in which script had been sent. format: date-time
+
+Запись в словаре. = Dictionary entry.
+Код. = Code.
+Значение. = Value.
+
+Параметры сообщения типа 'Fee Collection'. = 'Fee collection' message type parameters.
+Идентификатор транзакции SVFE. format: int64 = SVFE transaction id.
+Флаг реверсала. = Reversal flag.
+Идентификатор института. = Institution id.
+Сумма. = Amount.
+Код причины. format: int64 = Reason code. format: int64
+Текст сообщения. = Message text.
+
+Тип комиссии. = Fee type.
+Ставка комиссии. = Fee value.
+
+Параметры финансовой транзакции. = Financial transaction parameters.
+Код завершения операции SVFE. = SVFE operation completion code.
+Код обработки. = processing code.
+Номер записи аудита. format: int32 = Audit record number. format: int32
+Дата транзакции. format: date-time = Transaction date.  format: date-time
+Внешний идентификатор RRN. = External id RNN.
+Идентификатор авторизации. = Authorization id.
+Уникальный ссылочный номер операции. = Unique reference number for the operation.
+Одноразовый пароль. = One-time password.
+Сумма эквайерской комиссии. = Acquirer fee amount.
+Сумма эмитентской комиссии. = Issuer fee amount.
+Специальные данные платежа. = Payment specific data.
+
+Параметры настраиваемого поля. = Flexible field parameters.
+Идентификатор поля. format: int32 = Field id. format: int32
+Название поля. = Field name.
+Описание поля. = Field description.
+Форматированное значения. = Formatted value.
+
+Параметры сообщения типа 'Acquirer Funds Disbursement'. = 'Acquirer Funds Disbursement' message type parameters.
+Идентификатор транзакции SVFE. format: int64 = SVFE transaction id.
+Флаг реверсала. = Reversal flag.
+Идентификатор института. = Institution id.
+Сумма. = Amount.
+Код причины. format: int64 = Reason code. format: int64
+Текст сообщения. = Message text.
+
+Параметры идентификации карты. Возможные варианты идентификации карты: (номер карты) или (идентификатор карты), или (штрих-код), или (маскированный номер карты и идентификатор держателя карты), или (маскированный номер карты и номер мобильного телефона). 
+= Card identification parameters. Possible identification options: (card number) or (card id), or (bar-code), or (masked card number and cardholder id), or (masked card number and phone number).
+Сумма. = amount.
+Валюта. format: int32 = Currency.  format: int32
+Тип счета. = Account type.
+Порядковый номер счета-источника. format: int32 = Source account index. format: int32
+Номер счета. = Account number.
+Тип счета 2. = Account type 2.
+Порядковый номер счета 2. format: int32 = Account index 2. format: int32
+Номер счета 2. = Account number 2.
+Параметры транзакции 3DS. = 3DS transaction parameters.
+Информация об отправителе и получателе платежа. = Payment sender and recipient information.
+Набор кодов, определяющих возможности терминала, параметры его окружения и использование средств защиты при проведении транзакции. = A set of codes that determine the capabilities of the terminal, the parameters of its environment and the use of security tools during a transaction.
+Код, определяющий условия проведения транзакции в точке обслуживания. = A code that defines the conditions for conducting a transaction at a service point.
+Параметры терминала. = Terminal parameters.
+Индикатор уровня безопасности. = Security level indicator.
+Источник пополнения. format: int32 = Debit source. format: int32
+Внешний идентификатор транзакции. = External transaction id.
+Тип присутствия держателя карты в точке проведения платежа. format: int32 = Cardholder presense at a service point type. format: int32
+Уникальный ссылочный номер операции. = Unique reference number for the operation.
+Одноразовый пароль. = One-time password.
+Идентификатор сервиса получателя платежа. = Payment recipient service id.
+Специальные данные платежа. = Payment specific data.
+
+Параметры идентификации карты. Возможные варианты идентификации карты: (номер карты) или (идентификатор карты), или (штрих-код), или (маскированный номер карты и идентификатор держателя карты), или (маскированный номер карты и номер мобильного телефона). 
+= Card identification parameters. Possible identification options: (card number) or (card id), or (bar-code), or (masked card number and cardholder id), or (masked card number and phone number).
+Способ доставки кода. = Code delivery method.
+Параметры терминала. = Terminal parameters.
+
+Код завершения операции SVFE. = SVFE operation completion code.
+Маскированный номер карты. = Masked card number.
+Номер карты. = Card number.
+Сгенерированное значение CVC2. = Generated CVV2 value.
+
+Внутренний идентификатор терминала SVFE (pid). format: int64 = SVFE terminal internal id.
+Идентификатор терминала. = Terminal id.
+Идентификатор мерчанта. = Merchant id.
+Внутренний идентификатор (PID) ключа ZMK, который следует использовать для экспорта сгенерированного ключа. format: int32 = ZMK key internal id (PID), which should be used to export generated key.
+Тип ключа. = Key type.
+Длина генерируемого ключа. = Length of the generated key.
+
+Сгенерированный ключ (зашифрован ZMK). = Generated key (encrypted by ZMK).
+Проверочное значение. = Check value
+Сгенерированный ключ (зашифрован LMK). = Generated key (encrypted by LMK).
+Параметры идентификации карты. Необходимо указать шифрованный номер карты или (маскированный номер карты и номер мобильного телефона) или внешний идентификатор карты. = Card identification parameters. Encrypted card number or (masked card number and phone number) or external card id are required.
+Способ доставки PIN-кода. = PIN delivery method.
+Зашифрованный PIN-код. format: byte = Encrypted PIN.
+PIN-код. = PIN.
+Параметры терминала. = Terminal parameters.
+Перечень произвольных параметров. = List of arbitrary parameters.
+Флаг, указывающий на необходимость выполнить только проверку наличия и статуса карты, не выполняя непосредственно операции формирования и смены PIN-кода. = Flag, showing whether it is necessary to only check existence and card status and not form and change PIN.
+
+Код завершения операции в SmartVista. = SmartVista operation completion code.
+PIN-код. = PIN.
+Зашифрованный PIN-код. format: byte = Encrypted PIN.
+
+Параметры гео-ограничения. = Geo-restriction parameters.
+Идентификатор региона. format: int32 = Region id.
+Идентификатор группы транзакций. format: int32 = Transaction group id.
+Статус ограничения. = Restriction status.
+
+Номер счета. = Account number.
+Указывает на необходимость вернуть полные номера карт в ответе. = Shows whether or not it is necessary to include full card number in response.
+
+
+Параметры счета. = Account parameters.
+
+Идентификатор терминала. = terminal id.
+Внутренний идентификатор терминала SVFE (pid). format: int64 = SVFE terminal internal id. format: int64
+Внутренний идентификатор института. = Internal institution id.
+
+Перечень терминалов. = Terminal list.
+
+Номер карты. = Card number.
+Тип документа идентифицирующего личность. = ID document type.
+Идентификационный номер. = Identification number.
+Идентификатор контракта. = Contract id.
+Номер продукта. = Product id.
+
+Полное имя держателя карты. = Cardholder full name.
+Список карт держателя. = Cardholder card list.
+Список контактов держателя. = Cardholder contact list.
+Список адресов держателя. = Cardholder address list.
+Перечень лимитов. = Limit list.
+
+Тип документа идентифицирующего личность. = ID document type.
+Идентификационный номер. = Identification number
+
+ИНН клиента. = Client INN.
+Имя клиента. = Client name.
+Номер клиента. = Client number.
+Статус клиента. = Client status.
+Идентификатор института. = Institution id.
+Номер института. = Institution number.
+Параметры агента. = Agent parameters.
+Курьер. = Courier.
+Персонализатор. = Personalizer.
+Список контактов клиента. = Client contact list.
+Список адресов клиента. = Client address list.
+Перечень ответственных лиц. = Custodians list.
+
+Номер карты. = Card number.
+Тип терминала. = Terminal type.
+Детали транзакции. = Transaction details.
+
+Сетевой индикатор SVFE. = Network indicator SVFE.
+Сетевой код SVFE. = Network code SVFE.
+Принадлежность карты к определённому Brand/Card Type (в терминах MC/VISA). = Card affiliation to certain Brand/Card type (in Visa/MC terminals)
+Идентификатор продукта. = Product id.
+Категория продукта. = Product category.
+3-х значный буквенный код страны. = 3-letter country code.
+
+
+
+
+
+
+
+
